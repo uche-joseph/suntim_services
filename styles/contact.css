@@ -19,6 +19,7 @@ body {
     gap: 2rem;
     max-width: 95%;
     margin: auto;
+    padding-top: 7rem;
 }
 
 .contact-info h2 {
@@ -52,24 +53,29 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 
 /* Contact Details Section */
+.contact-details {
+    background-color: #e0f5ff;
+}
+
 .ct-box {
     padding: 2rem;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     flex-direction: column;
     gap: 2rem;
-    background-color: #f8f9fa;
     max-width: 95%;
     margin: auto;
 }
 
 .contact-item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 1rem;
 }
 
@@ -79,8 +85,8 @@ body {
 }
 
 .contact-text h3 {
-    font-size: 1rem;
-    color: #666;
+    font-size: 1.5rem;
+    color: #03a9f5;
 }
 
 .contact-text h2 {
@@ -93,10 +99,6 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-    }
-
-    .contact-item {
-        width: calc(50% - 1rem);
     }
 }
 
@@ -128,7 +130,10 @@ body {
 }
 
 @media (min-width: 1200px) {
-    .contact-form-section,
+    .contact-form-section {
+        padding: 7rem 10%;
+    }
+
     .contact-details {
         padding: 4rem 10%;
     }

@@ -91,6 +91,7 @@ a:hover {
     transition: var(--transition);
     font-size: 1.2rem;
     font-weight: bold;
+    margin-top: 1rem;
 }
 
 .cta-button:hover {
@@ -107,8 +108,9 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
-    max-width: 90%;
-    margin:auto;
+    max-width: 100%;
+    margin: auto;
+    position: fixed;
 }
 
 .main-nav {
@@ -116,6 +118,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: .3rem;
+    margin: auto;
+    max-width: 90%;
+}
+
+.main-nav a {
+    padding: 0 8px;
 }
 
 .logo img {
@@ -137,6 +145,10 @@ header {
     cursor: pointer;
     transition: var(--transition);
     font-size: 1rem;
+}
+
+.cta-button-head a {
+    color: #fff;
 }
 
 .menu-toggle {
@@ -166,11 +178,17 @@ header {
     right: 0;
 }
 
+.side-logo {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 15px;
+}
+
 .side-nav ul {
     list-style: none;
     padding: 2rem;
-    padding-bottom: 1rem;
     padding-top:3ren;
+    padding-bottom: 0;
 }
 
 .side-nav li {
@@ -182,30 +200,29 @@ header {
 }
 
 /* Hero section styles */
-.hero {
+#hero {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    background: linear-gradient(to bottom, #FFFFFF 59%, #FFFFFF 53%, #C1EBFE 100%);
+    width: 100%;
+}
+
+.hero-content {
+    width: 90%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 1.5rem 1rem;
-    background-color: #fff;
-    max-width: 95%;
-    margin: auto;
-    
 }
 
-.hero-content, .hero-image {
-    width: 100%;
-    margin-bottom: 2rem;
-}
-
-.hero-image img {
-    width: 75%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.hero h3 {
-    margin-bottom: .5rem;
+.hero h3,
+.hero h1,
+.hero p {
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .hero-image,
@@ -229,7 +246,7 @@ header {
 }
 
 .about-image img {
-    width: 75%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
@@ -601,6 +618,11 @@ footer p {
 
 /* Media Queries */
 @media screen and (min-width: 600px) {
+    #hero {
+      height: 70vh;
+      margin-top: 2rem;
+    }
+    
     .ac-boxes {
         flex-direction: row;
         justify-content: space-around;
@@ -620,36 +642,24 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-    header {
+    .main-nav {
         max-width: 90%;
         margin: auto;
-    }
-   
-    .hero {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 3rem;
     }
    
     .about {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        gap: 7rem;
-    }
-    
-    .hero-content, .hero-image,
-    .about-content, .about-image {
-        width: 48%;
-    }
-   
-    .about-image img,
-    .hero-image img {
-        width: 100%;
+        gap: 4rem;
+        padding-top: 4rem;
     }
 
-    .hero,
+    #hero {
+        height: 50vh;
+        margin-top: 1rem;
+    }
+
     .about,
     .service-boxes,
     .testimonials,
@@ -661,8 +671,17 @@ footer p {
         margin: auto;
     }
 
+    .about-content {
+        flex-basis: 50%;
+    }
+
+    .about-image {
+        flex-basis: 49%;
+    }
+
     .service-boxes {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        max-width: 80%;
     }
 
     .package-boxes {
@@ -713,6 +732,10 @@ footer p {
 }
 
 @media screen and (min-width: 1000px) {
+    #hero {
+        height: 100vh;
+    }
+    
     .faq {
         display: flex;
         justify-content: space-between;
@@ -746,8 +769,11 @@ footer p {
         align-items: flex-start;
     }
 
-    header,
-    .hero,
+    .service-boxes {
+        flex-wrap: nowrap;
+    }
+
+    .main-nav,
     .about,
     .service-boxes,
     .testimonials,
@@ -761,8 +787,8 @@ footer p {
 }
 
 @media screen and (min-width: 1200px) {
-    header,
-    .hero,
+    .main-nav,
+    .hero-content,
     .about,
     .service-boxes,
     .testimonials,
@@ -773,11 +799,15 @@ footer p {
         max-width: 80%;
         margin: auto;
     }
+
+    #hero {
+        height: 85vh;
+    }
 }
 
 @media screen and (min-width: 1440px) {
-    header,
-    .hero,
+    .main-nav,
+    .hero-content,
     .about,
     .service-boxes,
     .testimonials,
@@ -791,8 +821,8 @@ footer p {
 }
 
 @media screen and (min-width: 1900px) {
-    header,
-    .hero,
+    .main-nav,
+    .hero-content,
     .about,
     .service-boxes,
     .testimonials,

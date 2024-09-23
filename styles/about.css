@@ -93,6 +93,10 @@ body {
     color:#111;
 }
 
+.parallax-content h2 {
+    font-size: 1.5rem;
+}
+
 .f-box {
     padding: 2rem;
     display: grid;
@@ -149,27 +153,14 @@ body {
 /* CTA section */
 .cta {
     height: 15vh;
-    background-image: url('https://via.placeholder.com/1920x1080');
-    background-size: cover;
-    background-position: center;
-    position: relative;
+    background-color: #333;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 1rem;
-}
-
-.cta::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5rem 1rem; 
 }
 
 .cta h2, .cta button {
@@ -179,15 +170,15 @@ body {
 }
 
 .cta h2 {
-    font-size: 1.8rem;
+    font-size: 1.65rem;
     color: #fff;
 }
 
 
 /* Media queries */
 @media (min-width: 600px) {
-    .hero h1 {
-        font-size: 3rem;
+    .hero-3 {
+        height: 50vh;
     }
 }
 
@@ -219,8 +210,8 @@ body {
 }
 
 @media (min-width: 1000px) {
-    .hero h1 {
-        font-size: 3.5rem;
+    .hero-3 {
+        height: 60vh;
     }
 
     .features {

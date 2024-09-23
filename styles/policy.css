@@ -1,0 +1,37 @@
+/* Global Styles */
+body {
+    font-family: "Work Sans", sans-serif;
+    padding: 5rem 0 0;
+ }
+ 
+ #privacy-policy,
+ #terms-of-service {
+   padding: 1rem 2rem;
+ }
+ 
+ #privacy-policy h2,
+ #terms-of-service h2 {
+   border-bottom: 1px solid #03a9f5;
+ }
+ 
+ #p-footer {
+   width: 100%;
+ }
+ 
+ #p-footer p {
+   text-align: center;
+ }
+
+ @media screen and (min-width: 1000px) {
+  #privacy-policy,
+  #terms-of-service {
+    padding: 1rem 6rem;
+  }
+ }
+
+ @media screen and (min-width: 1000px) {
+  #privacy-policy,
+  #terms-of-service {
+    padding: 1rem 7.5rem;
+  }
+ }

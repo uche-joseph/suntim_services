@@ -120,10 +120,6 @@ body {
 
 /* Media queries */
 @media (min-width: 600px) {
-    .hero h1 {
-        font-size: 3rem;
-    }
-
     .s-box {
         align-items: center;
     }
@@ -156,10 +152,10 @@ body {
 }
 
 @media (min-width: 1000px) {
-    .hero h1 {
-        font-size: 3.5rem;
+    .hero-2 {
+        height: 60vh;
     }
-
+    
     .s-box {
         padding: 4rem 6rem;
         gap: 3rem;
@@ -171,10 +167,6 @@ body {
 }
 
 @media (min-width: 1200px) {
-    .hero h1 {
-        font-size: 4rem;
-    }
-
     .s-box {
         padding: 4rem 7rem;
     }

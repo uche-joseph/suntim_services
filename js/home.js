@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // FAQ accordion
+    
     const faqItems = document.querySelectorAll('.faq-item');
     
     faqItems.forEach(item => {
@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
         question.addEventListener('click', () => {
             item.classList.toggle('active');
         });
-    });
-
+    }); 
+    
     // Testimonial slider
     const testimonials = document.querySelectorAll(".testimonial");
     const nextButton = document.querySelector(".slider-button.next");
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
         showTestimonial(currentIndex);
     });
 
-    // Achievements counter animation
+    
     const achievementNumbers = document.querySelectorAll('.achievement-number');
     
     function animateNumber(element) {
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, { threshold: 0.5 });
 
     observer.observe(achievementsSection);
-});
+}); 
 
 // Intersection Observer for animations
 const animatedElements = document.querySelectorAll('.animate-fade-in-up');
@@ -97,15 +97,6 @@ const animationObserver = new IntersectionObserver((entries) => {
 }, { threshold: 0.1 });
 
 animatedElements.forEach(el => animationObserver.observe(el));
-
-// Update share URLs
-const shareButtons = document.querySelectorAll('.share-button');
-const pageUrl = encodeURIComponent(window.location.href);
-
-shareButtons.forEach(button => {
-    const href = button.getAttribute('href');
-    button.setAttribute('href', href + pageUrl);
-});
 
 // Cookie Consent
 const cookieConsent = document.getElementById('cookie-consent');
