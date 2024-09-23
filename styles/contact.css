@@ -14,12 +14,16 @@ body {
 /* Contact Form Section */
 .contact-form-section {
     padding: 2rem;
+    max-width: 95%;
+    margin: auto;
+    padding-top: 10rem;
+}
+
+.cf2 {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    max-width: 95%;
-    margin: auto;
-    padding-top: 7rem;
+    padding-top: 3rem;
 }
 
 .contact-info h2 {
@@ -103,7 +107,7 @@ body {
 }
 
 @media (min-width: 768px) {
-    .contact-form-section {
+    .cf2 {
         flex-direction: row;
     }
 
@@ -126,15 +130,20 @@ body {
     .ct-box {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
+        padding: 2rem;
     }
 }
 
 @media (min-width: 1200px) {
     .contact-form-section {
-        padding: 7rem 10%;
+        padding: 5rem 10%;
     }
 
     .contact-details {
         padding: 4rem 10%;
+    }
+
+    .ct-box {
+        padding: 0 2rem;
     }
 }
