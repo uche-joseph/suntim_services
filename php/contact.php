@@ -8,7 +8,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="../styles/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +19,7 @@ session_start();
 
 <header>
     <nav class="main-nav">
-        <a href="../index.html" class="logo"><img src="../images/s-logo.jpg" alt="Logo"></a>
+        <a href="../index.html" class="logo"><img src="s-logo.jpg" alt="Logo"></a>
         <ul class="menu-items">
             <li><a href="../index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -141,7 +141,7 @@ session_start();
     <div class="footer-content">
         <div class="footer-box">
             <div class="footer-info">
-                <img src="../images/s-logo.jpg" alt="Logo" class="footer-logo">
+                <img src="s-logo.jpg" alt="Logo" class="footer-logo">
                 <p>Suntim International Services is an agency dedicated to enriching your academic journey by providing you with unique opportunities to learn, explore, and grow in diverse international settings.</p>
             </div>
             <div class="footer-links">
@@ -182,7 +182,7 @@ session_start();
     </div>
 </div>
 
-<script src="../js/home.js"></script>
+<script src="contact.js"></script>
 </body>
 </html>
 
