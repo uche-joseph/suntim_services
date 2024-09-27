@@ -81,14 +81,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail = new PHPMailer(true);
     try {
         $mail->isSMTP();
-        $mail->Host       = 'sandbox.smtp.mailtrap.io';
+        $mail->Host       = 'sm1.cloudoon.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = '3d950ec299a3be';
-        $mail->Password   = '5bc0403e7c9f1c';
-        $mail->Port       = 2525;
+        $mail->Username   = 'info@suntiminternationalservices.com';
+        $mail->Password   = 'Suntim@2024';
+        $mail->Port       = 587;
 
-        $mail->setFrom('ucheorji555@gmail.com', 'Mailer');
-        $mail->addAddress('iamuche0011@gmail.com', 'Joe User');
+        $mail->setFrom('info@suntiminternationalservices.com', 'Website Contact Form');
+        $mail->addAddress('info@suntiminternationalservices.com', 'Suntim');
         $mail->addReplyTo($email, $name);
 
         $mail->isHTML(true);
