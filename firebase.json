@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "suntim",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
