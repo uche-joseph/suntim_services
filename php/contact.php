@@ -40,11 +40,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 
 <header>
     <nav class="main-nav">
-        <a href="../index.html" class="logo"><img src="s-logo.jpg" alt="Logo"></a>
+        <a href="https://suntiminternationalservices.com/" class="logo"><img src="s-logo.jpg" alt="Logo"></a>
         <ul class="menu-items">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="service.html">Services</a></li>
+            <li><a href="https://suntiminternationalservices.com/">Home</a></li>
+            <li><a href="https://suntiminternationalservices.com/pages/about.html">About</a></li>
+            <li><a href="https://suntiminternationalservices.com/pages/service.html">Services</a></li>
             <li><a href="contact.php">Contact</a></li>
         </ul>
         <button class="cta-button-head"><a href="contact.php">Get Started</a></button>
@@ -54,11 +54,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     </nav>
     <nav class="side-nav">
         <ul>
-            <img src="../images/s-logo.jpg" class="side-logo" alt="" />
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="pages/about.html">About</a></li>
-            <li><a href="pages/service.html">Services</a></li>
-            <li><a href="pages/contact.php">Contact</a></li>
+            <img src="s-logo.jpg" class="side-logo" alt="" />
+            <li><a href="https://suntiminternationalservices.com/">Home</a></li>
+            <li><a href="https://suntiminternationalservices.com/pages/about.html">About</a></li>
+            <li><a href="https://suntiminternationalservices.com/pages/service.html">Services</a></li>
+            <li><a href="contact.php">Contact</a></li>
         </ul>
         <a href="contact.php"><button class="cta-button">Get Started</button></a>
     </nav>
@@ -169,17 +169,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
                 <div class="footer-column">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
+                        <li><a href="https://suntiminternationalservices.com/">Home</a></li>
+                        <li><a href="https://suntiminternationalservices.com/pages/about.html">About</a></li>
+                        <li><a href="https://suntiminternationalservices.com/pages/service.html">Services</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h3>Support</h3>
                     <ul>
                         <li><a href="contact.php">Contact Us</a></li>
-                        <li><a href="policy.html">Privacy Policy</a></li>
-                        <li><a href="policy.html">Terms of Service</a></li>
+                        <li><a href="https://suntiminternationalservices.com/pages/policy.html">Privacy Policy</a></li>
+                        <li><a href="https://suntiminternationalservices.com/pages/policy.html">Terms of Service</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">

@@ -13,7 +13,7 @@ body {
 
 /* Hero section */
 .hero-3 {
-    height: 40vh;
+    height: 35vh;
     background-image: url('../images/abt.jpg');
     background-size: cover;
     background-position: center;
@@ -144,10 +144,9 @@ body {
 }
 
 .team-members img {
-    width: 150px;
-    height: 150px;
+    width: 270px;
+    height: 300px;
     border-radius: 50%;
-    object-fit: cover;
 }
 
 /* CTA section */

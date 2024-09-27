@@ -30,7 +30,7 @@ body {
 
 /* Hero section */
 .hero-2 {
-    height: 40vh;
+    height: 35vh;
     background-image: url('../images/service-hero.jpg');
     background-size: cover;
     background-position: center;
