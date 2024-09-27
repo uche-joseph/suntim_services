@@ -140,7 +140,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 3.5rem;
 }
 
 .team-members img {
