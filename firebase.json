@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "suntim",
+    "public": "./",
     "ignore": [
       "firebase.json",
       "**/.*",
