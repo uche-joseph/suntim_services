@@ -137,7 +137,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
                 <i class="fas fa-envelope"></i>
                 <div class="contact-text">
                     <h3>Email</h3>
-                    <a href="mailto:info@studyabroadtravel.com"><h2>info@example.com</h2></a>
+                    <a href="mailto:info@suntiminternationalservices.com"><h2>info@suntiminternationalservices.com</h2></a>
                 </div>
             </div>
             <div class="contact-item">
