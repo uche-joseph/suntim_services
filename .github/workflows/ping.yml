@@ -1,0 +1,14 @@
+name: Keep Backend Awake
+
+# Run this job every 15 minutes
+on:
+  schedule:
+    - cron: "*/60 * * * *"  # This will run the job every 15 minutes
+
+jobs:
+  ping-backend:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send a ping to keep the backend awake
+        run: curl -X GET https://suntim-services.onrender.com/health.php
